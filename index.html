@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="main">
+        <div>
+            <div class="heading">
+                <h3 id="home"> Home</h3>
+            </div>
+            <div class="scoreboard">
+                <span class="score" id="scoreH"></span>
+            </div>
+
+            <div class="controls">
+                <button id="plus1H-btn" onclick="add1('home')">+1</button>
+                <button id="plus2H-btn" onclick="add2('home')">+2</button>
+                <button id="plus3H-btn" onclick="add3('home')">+3</button>
+            </div>
+        </div>
+        <div>
+            <div class="heading">
+                <h3 id="guest">Guest</h3>
+            </div>
+            <div class="scoreboard">
+                <span class="score" id="scoreG"></span>
+            </div>
+
+            <div class="controls">
+                <button id="plus1G-btn" onclick="add1('guest')">+1</button>
+                <button id="plus2G-btn" onclick="add2('guest')" >+2</button>
+                <button id="plus3G-btn" onclick="add3('guest')">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
